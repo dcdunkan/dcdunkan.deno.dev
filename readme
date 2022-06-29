@@ -1,0 +1,18 @@
+-- GitHub Content (user edition) --
+
+Nothing special. No redirects. For Deno.
+It's a replacer for https://raw.githubusercontent.com, but for users. ._.
+
+Set github username as an environment variable named OWNER.
+
+URL Format:
+https://whatever.deno.dev/repository@version-or-branch/file/path.ts
+
+Version/branch is optional, if none provided, gets latest tag or default branch if no tags found.
+
+Example URLs:
+- Branch: https://dcdunkan.deno.dev/tgdb@main/src/index.ts
+- Tag (version): https://grammyjs.deno.dev/grammY@v1.9.0/src/mod.ts
+- Redirect to latest tag or branch: https://dcdunkan.deno.dev/ghc.deno.dev/main.ts
+
+Related: https://github.com/dcdunkan/ghc.deno.dev
